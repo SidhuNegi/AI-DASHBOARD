@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+yfinance
+pandas
+numpy
+requests
+feedparser
