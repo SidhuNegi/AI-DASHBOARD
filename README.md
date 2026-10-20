@@ -1,5 +1,3 @@
-
-```markdown
 # ⚡ AI Market Pulse: Nifty 50 & BankNifty Terminal
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -30,7 +28,7 @@ In market analysis, generating trading biases based on stale or improperly times
 
 ## 🔄 System Architecture Flowchart
 
-```mermaid
+
 graph TD
     subgraph Data Sources
         A1[INDstocks API] -->|Live Option Chain| B(Streamlit App Engine)
@@ -52,7 +50,7 @@ graph TD
         B -->|High Impact Alerts| E[Telegram Bot]
     end
 
-```
+
 
 ## 🛠️ Tech Stack
 
