@@ -28,7 +28,7 @@ import requests
 import streamlit as st
 import yfinance as yf
 
-from services.news_service import (
+from news_service import (
     ALLOW_UPDATED_TIMESTAMP_FALLBACK,
     MAX_NEWS_AGE_HOURS,
     NEWS_SNAPSHOT_MAX_AGE_SECONDS,
